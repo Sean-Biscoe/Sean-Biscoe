@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Applied%20Statistics&descSize=20&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Applied%20Statistics&descSize=20&descAlignY=62" width="100%" />
   
   <h3><b>Computer Science & Mathematics Integrated Masters (MSci) @ Loughborough University</b></h3>
 </div>
@@ -45,7 +45,7 @@ class SeanBiscoe:
     def current_focus(self):
         return "Applying quantitative rigor and ML to complex real-world data."
 
-**📌 Featured Data Science & ML Projects**
+### **📌 Featured Data Science & ML Projects**
 
 | Project | Tech Stack | Key Data Science Focus |
 | :--- | :--- | :--- |
@@ -56,7 +56,7 @@ class SeanBiscoe:
 
 ---
 
-**💼 Experience**
+### **💼 Experience**
 
 * 🛠️ **Technical Developer & Tutor/Mentor** @ *SPM Development Services Ltd* *(Sep 2025 – Present)*
   * Engineer Next.js components for complex data presentation and document upload flows.
@@ -71,7 +71,7 @@ class SeanBiscoe:
 
 ---
 
-**🛠️ Tech Stack & Toolkit**
+### **🛠️ Tech Stack & Toolkit**
 
 <div align="center">
 
@@ -96,7 +96,7 @@ class SeanBiscoe:
 
 ---
 
-**📜 Certifications & Honors**
+### **📜 Certifications & Honors**
 
 * **IBM:** *Data Analysis with Python* (`Credential ID: 9P50XZWC4M41`)
 * **EDUCBA:** *Regression & Forecasting for Data Scientists using Python* (`Credential ID: ODE6ZOD9SNX8`)
@@ -105,7 +105,7 @@ class SeanBiscoe:
 
 ---
 
-**📫 Connect**
+### **📫 Connect**
 
 <div align="center">
 
