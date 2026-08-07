@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052CC,100:00B4D8&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Applied%20Statistics&descSize=20&descAlignY=70" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Applied%20Statistics&descSize=20&descAlignY=62" width="100%" />
   
   <h3><b>Computer Science & Mathematics Integrated Masters (MSci) @ Loughborough University</b></h3>
 </div>
@@ -32,15 +32,15 @@ class SeanBiscoe:
         self.nationality = "UK National"
         self.languages = ["English (Native)"]
         self.education = "MSci Computer Science & Mathematics @ Loughborough University"
-        self.academic_standing = "On track for a 2:1 (83% achieved in Mathematical coursework)"
+        self.academic_standing = "2:1 Track (83% achieved in Mathematical coursework)"
         
         self.specialties = [
-            "Predictive Modeling & Statistical Inference (SHAP, Gradient Boosting, Welch's t-test)",
-            "3D Medical Image Segmentation (PyTorch, SimpleITK, Semi-Supervised Learning)",
-            "Data Pipeline Engineering & Optimization (Delivered 30% speedups on large datasets)",
-            "Exploratory Data Analysis (EDA) & Feature Engineering"
+            "Predictive Modeling & Statistical Inference (SHAP, Welch's t-test)",
+            "3D Medical Image Segmentation (PyTorch, Semi-Supervised Learning)",
+            "Data Pipeline Engineering (Delivered 30% retrieval speedups)",
+            "Exploratory Data Analysis (EDA) & Time-Series Forecasting"
         ]
-        self.primary_stack = ["Python", "SQL", "PyTorch", "Pandas", "NumPy", "Scikit-Learn", "Next.js"]
+        self.primary_stack = ["Python", "SQL", "PyTorch", "Pandas", "NumPy", "Scikit-Learn"]
 
     def current_focus(self):
-        return "Applying rigorous quantitative and machine learning techniques to complex real-world data."
+        return "Applying quantitative rigor and ML to complex real-world data."
