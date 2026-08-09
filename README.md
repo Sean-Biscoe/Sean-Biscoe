@@ -1,70 +1,52 @@
 <!-- TOP BANNER -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=180&section=header&text=Sean%20Biscoe&fontSize=48&fontColor=ffffff&desc=Applied%20Machine%20Learning%20%7C%20Statistical%20Modelling&descSize=18&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Applied%20Machine%20Learning%20%7C%20Statistical%20Modelling&descSize=20&descAlignY=62" width="100%" />
 </div>
 
 ---
 
-## Sean Biscoe
+## 📌 Featured Projects
 
-**MSci Computer Science & Mathematics @ Loughborough University**
-Applied Machine Learning • Statistical Modelling • Data Systems
-
----
-
-## 📌 Projects
-
-**US Census Income Modelling (1.66M rows)**
-→ End-to-end pipeline: feature engineering, sampling, external joins
-→ Evaluated 7 models → **Gradient Boosting (AUC: 0.879)**
-→ SHAP + Welch’s t-test to identify key income drivers
-
-**Semi-Supervised 3D Medical Segmentation (Dissertation)**
-→ Built full PyTorch pipeline (3D U-Net + Mean Teacher)
-→ Achieved **Dice: 0.6617 under limited labelled data**
-→ Focus: consistency regularisation + robust evaluation
-
-**Hydrological Data Pipeline (Time-Series)**
-→ Cleaned noisy environmental data (outliers + interpolation)
-→ Engineered lag-based features for predictive modelling
-→ Identified key predictors via correlation + visual analysis
-
-**Real-Time Vision System (Embedded ML)**
-→ ResNet-18 classifier deployed on Jetson
-→ Accuracy improved **71.2% → 80.5%** via dataset refinement
-→ Implemented temporal confidence filtering
+| Project                                                                         | Stack                              | Impact                                                                                                                                          |
+| :------------------------------------------------------------------------------ | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[US Census Income Model](https://github.com/Sean-Biscoe)**                    | `Python`, `Scikit-Learn`, `SHAP`   | Built end-to-end pipeline on **1.66M rows** → Gradient Boosting (**AUC: 0.879**). Identified key income drivers via SHAP + statistical testing. |
+| **[LUNA16 Mean Teacher](https://github.com/Sean-Biscoe/LUNA16_MeanTeacher)**    | `PyTorch`, `3D U-Net`, `SimpleITK` | Semi-supervised 3D medical segmentation under label scarcity → **Dice: 0.6617**. Focus on consistency regularisation.                           |
+| **[Vision Line Follower](https://github.com/Sean-Biscoe/vision-line-follower)** | `ResNet-18`, `OpenCV`, `Jetson`    | Real-time embedded vision system → improved accuracy **71.2% → 80.5%** via dataset correction + class balancing.                                |
+| **[Hydrological Data Pipeline](https://github.com/Sean-Biscoe)**                | `Python`, `Pandas`, `NumPy`        | Cleaned noisy time-series data using interpolation + outlier filtering → engineered predictive features for flow modelling.                     |
 
 ---
 
-## ⚡ Profile
+## ⚡ About Me
 
-Penultimate-year MSci student with strong grounding in **mathematics, statistics, and machine learning**, experienced in building **end-to-end data pipelines and predictive models on large-scale datasets**.
+Applied Machine Learning & Statistical Modelling student at **Loughborough University (MSci Computer Science & Mathematics)**.
 
-* Strong focus on **variance analysis & statistical validation**
-* Experience handling **high-volume, messy real-world data**
-* Clear communicator of technical findings (visual + written)
+I build **data-driven systems and predictive models** across large-scale datasets and real-world constraints — from **million-row tabular data** to **3D medical imaging pipelines**.
 
----
+Core focus:
 
-## 🧠 Current Focus
-
-* Semi-supervised learning under **limited labelled data**
-* Improving **model robustness & generalisation**
-* Statistical validation in ML pipelines
+* **Predictive Modelling & Statistical Inference**
+* **Machine Learning under limited / noisy data**
+* **End-to-End Data Pipelines**
+* **Interpretable ML (SHAP, statistical testing)**
 
 ---
 
-## 🛠️ Stack
+## 🚀 Current Focus
 
-**Languages**
-Python • SQL
+* Semi-supervised learning for **medical image segmentation (Mean Teacher, U-Net)**
+* Improving **model robustness with limited labelled data**
+* Applying **statistical validation techniques** in ML pipelines
 
-**ML / Data**
-PyTorch • Scikit-Learn • Pandas • NumPy
+---
 
-**Tools**
-Git • BigQuery • Power BI • Excel
+## 🛠️ Tech Stack
+
+**Languages & ML**
+`Python` `SQL` `PyTorch` `Scikit-Learn` `Pandas` `NumPy`
+
+**Tools & Systems**
+`Git` `Docker` `BigQuery` `Power BI` `Excel`
 
 ---
 
@@ -77,7 +59,7 @@ Git • BigQuery • Power BI • Excel
 
 ---
 
-## 📫 Contact
+## 📫 Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sean-biscoe/">
