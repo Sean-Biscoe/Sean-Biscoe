@@ -1,65 +1,121 @@
 <!-- TOP BANNER -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Applied%20Machine%20Learning%20%7C%20Statistical%20Modelling&descSize=20&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=180&section=header&text=Sean%20Biscoe&fontSize=48&fontColor=ffffff&desc=Applied%20Machine%20Learning%20%7C%20Statistical%20Modelling&descSize=18&descAlignY=62" width="100%" />
 </div>
 
 ---
 
-## 📌 Featured Projects
+## Sean Biscoe
 
-| Project                                                                         | Stack                              | Impact                                                                                                                                          |
-| :------------------------------------------------------------------------------ | :--------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[US Census Income Model](https://github.com/Sean-Biscoe)**                    | `Python`, `Scikit-Learn`, `SHAP`   | Built end-to-end pipeline on **1.66M rows** → Gradient Boosting (**AUC: 0.879**). Identified key income drivers via SHAP + statistical testing. |
-| **[LUNA16 Mean Teacher](https://github.com/Sean-Biscoe/LUNA16_MeanTeacher)**    | `PyTorch`, `3D U-Net`, `SimpleITK` | Semi-supervised 3D medical segmentation under label scarcity → **Dice: 0.6617**. Focus on consistency regularisation.                           |
-| **[Vision Line Follower](https://github.com/Sean-Biscoe/vision-line-follower)** | `ResNet-18`, `OpenCV`, `Jetson`    | Real-time embedded vision system → improved accuracy **71.2% → 80.5%** via dataset correction + class balancing.                                |
-| **[Hydrological Data Pipeline](https://github.com/Sean-Biscoe)**                | `Python`, `Pandas`, `NumPy`        | Cleaned noisy time-series data using interpolation + outlier filtering → engineered predictive features for flow modelling.                     |
+Applied Machine Learning • Statistical Modelling • Data Systems
 
 ---
 
-## ⚡ About Me
+<details>
+<summary><b>🎓 Loughborough University</b></summary>
 
-Applied Machine Learning & Statistical Modelling student at **Loughborough University (MSci Computer Science & Mathematics)**.
+**MSci Computer Science & Mathematics (2023 – 2027)**
 
-I build **data-driven systems and predictive models** across large-scale datasets and real-world constraints — from **million-row tabular data** to **3D medical imaging pipelines**.
+* On track for **2:1 (83% in Mathematical modules)**
+* Modules: Data Mining (73%), Numerical Methods (74%), Probability & Statistics (70%), AI Methods, Software Engineering (71%)
 
-Core focus:
+</details>
 
-* **Predictive Modelling & Statistical Inference**
-* **Machine Learning under limited / noisy data**
-* **End-to-End Data Pipelines**
-* **Interpretable ML (SHAP, statistical testing)**
+---
+
+## 📌 Projects
+
+**US Census Income Modelling (1.66M rows)**
+→ End-to-end pipeline with feature engineering + external joins
+→ 7 models evaluated → **Gradient Boosting (AUC: 0.879)**
+→ SHAP + Welch’s t-test to identify key income drivers
+
+**Semi-Supervised 3D Medical Segmentation (Dissertation)**
+→ Built full PyTorch pipeline (3D U-Net + Mean Teacher)
+→ Achieved **Dice: 0.6617 with limited labelled data**
+→ Focus on consistency regularisation + robust evaluation
+
+**Hydrological Data Pipeline (Time-Series)**
+→ Cleaned noisy environmental data (outliers + interpolation)
+→ Engineered lag-based predictive features
+→ Identified key drivers via correlation + visual analysis
+
+**Real-Time Vision System (Embedded ML)**
+→ ResNet-18 deployed on Jetson hardware
+→ Accuracy improved **71.2% → 80.5%**
+→ Implemented temporal confidence filtering
+
+---
+
+## 💼 Experience
+
+**Technical Developer & Tutor — SPM Development Services (2025–Present)**
+→ Build data-driven web components (Next.js)
+→ Deliver 1:1 tutoring in Python, ML, and computing fundamentals
+
+**Enrolment Data Assistant — Kingston College (2023–2024)**
+→ Improved data retrieval speed by **30%** through restructuring
+→ Maintained **100% data accuracy** in high-stakes reporting
+
+**General Operative — Wimbledon (AELTC)**
+→ Supported large-scale operations under high-pressure conditions
+
+---
+
+<details>
+<summary><b>💻 $ whoami</b></summary>
+
+```python
+class SeanBiscoe:
+    def __init__(self):
+        self.focus = [
+            "Machine Learning",
+            "Statistical Modelling",
+            "Data Pipelines"
+        ]
+        
+        self.strengths = [
+            "Working with large, messy datasets",
+            "Extracting signal using statistical methods",
+            "Building end-to-end ML systems"
+        ]
+        
+        self.tools = ["Python", "SQL", "PyTorch", "Pandas", "Scikit-Learn"]
+
+    def current_goal(self):
+        return "Apply ML and statistics to high-impact real-world problems"
+```
+
+</details>
 
 ---
 
 ## 🚀 Current Focus
 
-* Semi-supervised learning for **medical image segmentation (Mean Teacher, U-Net)**
-* Improving **model robustness with limited labelled data**
-* Applying **statistical validation techniques** in ML pipelines
+* Semi-supervised learning (medical imaging)
+* Model robustness under limited data
+* Statistical validation in ML pipelines
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages & ML**
 `Python` `SQL` `PyTorch` `Scikit-Learn` `Pandas` `NumPy`
-
-**Tools & Systems**
-`Git` `Docker` `BigQuery` `Power BI` `Excel`
+`Git` `Docker` `Power BI` `Excel`
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sean-Biscoe&show_icons=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-Biscoe&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sean-Biscoe&show_icons=true&count_private=true&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-Biscoe&layout=compact&hide_border=true" />
 </p>
 
 ---
 
-## 📫 Connect
+## 📫 Contact
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sean-biscoe/">
