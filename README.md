@@ -1,130 +1,133 @@
 <!-- TOP BANNER -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=180&section=header&text=Sean%20Biscoe&fontSize=48&fontColor=ffffff&desc=Applied%20Machine%20Learning%20%7C%20Statistical%20Modelling&descSize=18&descAlignY=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A3641,50:0E6268,100:00A896&height=200&section=header&text=Sean%20Biscoe&fontSize=50&fontColor=ffffff&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Applied%20Statistics&descSize=20&descAlignY=62" width="100%" />
+
+  <h3><b>Computer Science & Mathematics Integrated Masters (MSci) @ Loughborough University</b></h3>
 </div>
 
 ---
 
-## Sean Biscoe
+<!-- BADGES BAR -->
 
-Applied Machine Learning • Statistical Modelling • Data Systems
+<div align="center">
 
----
+![Loughborough University](https://img.shields.io/badge/LOUGHBOROUGH%20UNI-MSCI%20CS%20%26%20MATHS-4B0082?style=for-the-badge\&logo=google-scholar\&logoColor=white)
+![Standing](https://img.shields.io/badge/STANDING-2%3A1%20TRACK-success?style=for-the-badge)
+![Citizenship](https://img.shields.io/badge/CITIZENSHIP-UK%20NATIONAL-blue?style=for-the-badge)
+![Language](https://img.shields.io/badge/LANGUAGES-ENGLISH%20\(NATIVE\)-red?style=for-the-badge)
 
-<details>
-<summary><b>🎓 Loughborough University</b></summary>
+</div>
 
-**MSci Computer Science & Mathematics (2023 – 2027)**
+<br />
 
-* On track for **2:1 (83% in Mathematical modules)**
-* Modules: Data Mining (73%), Numerical Methods (74%), Probability & Statistics (70%), AI Methods, Software Engineering (71%)
+### ⚡ What I'm Building & Analyzing
 
-</details>
-
----
-
-## 📌 Projects
-
-**US Census Income Modelling (1.66M rows)**
-→ End-to-end pipeline with feature engineering + external joins
-→ 7 models evaluated → **Gradient Boosting (AUC: 0.879)**
-→ SHAP + Welch’s t-test to identify key income drivers
-
-**Semi-Supervised 3D Medical Segmentation (Dissertation)**
-→ Built full PyTorch pipeline (3D U-Net + Mean Teacher)
-→ Achieved **Dice: 0.6617 with limited labelled data**
-→ Focus on consistency regularisation + robust evaluation
-
-**Hydrological Data Pipeline (Time-Series)**
-→ Cleaned noisy environmental data (outliers + interpolation)
-→ Engineered lag-based predictive features
-→ Identified key drivers via correlation + visual analysis
-
-**Real-Time Vision System (Embedded ML)**
-→ ResNet-18 deployed on Jetson hardware
-→ Accuracy improved **71.2% → 80.5%**
-→ Implemented temporal confidence filtering
+I am a Data Science & Machine Learning practitioner with a strong mathematical foundation. My work spans **end-to-end data pipelines, predictive statistical modeling (SHAP, Welch's t-test), and 3D deep learning architectures**. I focus on extracting signal from complex datasets—from processing **1.66M-row census archives** to engineering **semi-supervised medical vision pipelines**.
 
 ---
 
-## 💼 Experience
-
-**Technical Developer & Tutor — SPM Development Services (2025–Present)**
-→ Build data-driven web components (Next.js)
-→ Deliver 1:1 tutoring in Python, ML, and computing fundamentals
-
-**Enrolment Data Assistant — Kingston College (2023–2024)**
-→ Improved data retrieval speed by **30%** through restructuring
-→ Maintained **100% data accuracy** in high-stakes reporting
-
-**General Operative — Wimbledon (AELTC)**
-→ Supported large-scale operations under high-pressure conditions
-
----
-
-<details>
-<summary><b>💻 $ whoami</b></summary>
+### 💻 `$ whoami`
 
 ```python
 class SeanBiscoe:
     def __init__(self):
-        self.focus = [
-            "Machine Learning",
-            "Statistical Modelling",
-            "Data Pipelines"
-        ]
+        self.name = "Sean Christopher Biscoe"
+        self.nationality = "UK National"
+        self.languages = ["English (Native)"]
+        self.education = "MSci Computer Science & Mathematics @ Loughborough University"
+        self.academic_standing = "2:1 Track (83% in Mathematical coursework)"
         
-        self.strengths = [
-            "Working with large, messy datasets",
-            "Extracting signal using statistical methods",
-            "Building end-to-end ML systems"
+        self.specialties = [
+            "Predictive Modeling & Statistical Inference (SHAP, Welch's t-test)",
+            "3D Medical Image Segmentation (PyTorch, Semi-Supervised Learning)",
+            "Data Pipeline Engineering (30% retrieval speedups)",
+            "Exploratory Data Analysis (EDA) & Time-Series Forecasting"
         ]
-        
-        self.tools = ["Python", "SQL", "PyTorch", "Pandas", "Scikit-Learn"]
+        self.primary_stack = ["Python", "SQL", "PyTorch", "Pandas", "NumPy", "Scikit-Learn"]
 
-    def current_goal(self):
-        return "Apply ML and statistics to high-impact real-world problems"
+    def current_focus(self):
+        return "Applying quantitative rigor and ML to complex real-world data."
 ```
 
-</details>
+---
+
+### 📌 Featured Data Science & ML Projects
+
+| Project                                                                         | Tech Stack                                              | Key Data Science Focus                                                                                                        |
+| :------------------------------------------------------------------------------ | :------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------- |
+| **[US Census Income Predictive Model](https://github.com/Sean-Biscoe)**         | `Python`, `Scikit-Learn`, `SHAP`, `Feature Engineering` | End-to-end pipeline on **1.66M rows**. Evaluated 7 classifiers (Gradient Boosting **AUC: 0.879**) with SHAP + Welch’s t-test. |
+| **[LUNA16_MeanTeacher](https://github.com/Sean-Biscoe/LUNA16_MeanTeacher)**     | `PyTorch`, `SimpleITK`, `3D U-Net`, `Pandas`            | **Dissertation:** Semi-supervised 3D segmentation using Mean Teacher (Dice: 0.6617).                                          |
+| **[River Flow & Rainfall Pipeline](https://github.com/Sean-Biscoe)**            | `Python`, `NumPy`, `Pandas`, `Time-Series`              | Data cleaning, PCHIP interpolation, and time-lagged feature engineering.                                                      |
+| **[Vision Line Follower](https://github.com/Sean-Biscoe/vision-line-follower)** | `ResNet-18`, `Jetson Orin Nano`, `OpenCV`               | Real-time classifier with class balancing + temporal confidence gating.                                                       |
 
 ---
 
-## 🚀 Current Focus
+### 💼 Experience
 
-* Semi-supervised learning (medical imaging)
-* Model robustness under limited data
-* Statistical validation in ML pipelines
+* 🛠️ **Technical Developer & Tutor/Mentor** @ *SPM Development Services Ltd* *(Sep 2025 – Present)*
 
----
+  * Build Next.js components for data-heavy workflows
+  * Deliver 1:1 tutoring in Python, IT security, and infrastructure
 
-## 🛠️ Tech Stack
+* 📊 **Enrollment Data Assistant (Seasonal)** @ *Reed / Kingston College* *(Jun 2023 – Aug 2024)*
 
-`Python` `SQL` `PyTorch` `Scikit-Learn` `Pandas` `NumPy`
-`Git` `Docker` `Power BI` `Excel`
+  * Improved data retrieval speed by **30%**
+  * Standardised workflows and ensured data accuracy
 
----
+* 🎾 **General Operative (Seasonal)** @ *Wimbledon (AELTC)* *(Jun 2024 – Aug 2026)*
 
-## 📊 GitHub Stats
+  * Supported large-scale operations under high-pressure conditions
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sean-Biscoe&show_icons=true&count_private=true&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-Biscoe&layout=compact&hide_border=true" />
-</p>
+* 🛍️ **Retail Assistant** @ *Loughborough Students' Union* *(Jun 2024 – Present)*
+
+  * Train staff, manage stock, and handle high-volume customer service
 
 ---
 
-## 📫 Contact
+### 🛠️ Tech Stack & Toolkit
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sean-biscoe/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:sean.biscoe04@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+<div align="center">
+
+**Languages & Data Science Tools**
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge\&logo=postgresql\&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge\&logo=PyTorch\&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+
+<br />
+
+**Infrastructure & Tools**
+![GCP BigQuery](https://img.shields.io/badge/Google_BigQuery-4285F4?style=for-the-badge\&logo=googlecloud\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge\&logo=microsoft-excel\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+
+</div>
+
+---
+
+### 📜 Certifications & Honors
+
+* **IBM:** Data Analysis with Python
+* **EDUCBA:** Regression & Forecasting for Data Scientists
+* **Academic Achievement:** 83% in Mathematical Coursework
+* **Leadership:** Intramural Cricket Captain
+
+---
+
+### 📫 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/sean-biscoe/)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Sean-Biscoe)
+[![Email](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:sean.biscoe04@gmail.com)
+
+</div>
 
 ---
 
